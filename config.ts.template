@@ -1,0 +1,16 @@
+// Configuration file template
+// Copy this file to config.ts and fill in your actual API keys
+
+export const METAMAP_API_URL = "https://signup.metamap.com/";
+export const METAMAP_API_KEY = "YOUR_METAMAP_API_KEY";
+export const METAMAP_FLOW_ID = "YOUR_METAMAP_FLOW_ID";
+export const API_URL = "YOUR_API_URL";
+export const PUBLIC_MAPBOX_API_URL = "https://api.mapbox.com/geocoding/v5/mapbox.places";
+export const PUBLIC_MAPBOX_DIRECTIONS_API_URL = "https://api.mapbox.com/directions/v5/mapbox/driving";
+export const MAPBOX_ACCESS_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN";
+export const EXPO_PUBLIC_COUNTRY_API = "https://restcountries.com/v3.1/all";
+export const EXPO_PUBLIC_SUMUP_KEY = "YOUR_SUMUP_PUBLIC_KEY";
+export const EXPO_GOOGLE_MAPS = "https://www.google.com/maps/dir/?api=1";
+export const EXPO_GOOGLE_MAPS_API_KEY = "YOUR_GOOGLE_MAPS_API_KEY";
+export const EXPO_SENTRY_URL_DEV = "YOUR_SENTRY_DEV_URL";
+export const EXPO_SENTRY_URL_PROD = "YOUR_SENTRY_PROD_URL";

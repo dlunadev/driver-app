@@ -1,0 +1,67 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# iOS
+ios/Pods/
+**/Pods
+ios/*
+ios
+# Android
+android/*
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Environment files with sensitive keys
+.env
+.env*.local
+
+# Lock files - avoid committing package manager lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# typescript
+*.tsbuildinfo
+.yarn/
+
+# IDE
+.idea
+app-example
+
+# EAS
+eas.json
+
+# Firebase configuration files (contain API keys)
+google-services.json
+GoogleService-Info.plist
+
+# Application configuration files (contain API keys and secrets)
+config.ts
+app.config.js
+firebaseConfig.js
