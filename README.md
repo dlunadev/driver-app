@@ -1,8 +1,8 @@
-# 📱 HOP - Descripción Completa del Proyecto
+# 📱 Drive - Descripción Completa del Proyecto
 
 ## 🎯 Propósito del Proyecto
 
-**HOP** es una aplicación móvil de transporte tipo ride-sharing (similar a Uber/Cabify) desarrollada específicamente para el mercado chileno. La plataforma conecta dos tipos de usuarios:
+**Drive** es una aplicación móvil de transporte tipo ride-sharing (similar a Uber/Cabify) desarrollada específicamente para el mercado chileno. La plataforma conecta dos tipos de usuarios:
 
 - **Hoppies (Pasajeros)**: Usuarios que solicitan viajes desde y hacia hoteles
 - **Hoppers (Conductores)**: Conductores que aceptan y realizan los viajes
@@ -104,7 +104,7 @@ La aplicación está diseñada para facilitar el transporte turístico y hoteler
 ## 📂 Estructura de Carpetas Detallada
 
 ```
-hop/
+Drive/
 ├── src/
 │   ├── app/                    # Rutas (File-based routing con Expo Router)
 │   │   ├── (auth)/            # Grupo de rutas de autenticación
@@ -247,7 +247,7 @@ hop/
 
 ## 📱 Permisos de la Aplicación
 
-HOP requiere los siguientes permisos del sistema operativo para funcionar correctamente:
+Drive requiere los siguientes permisos del sistema operativo para funcionar correctamente:
 
 ### **Permisos de Android**
 
@@ -268,9 +268,9 @@ HOP requiere los siguientes permisos del sistema operativo para funcionar correc
 |---------|-------------|-----|
 | `NSLocationWhenInUseUsageDescription` | Ubicación cuando se usa la app | Tracking de viajes y mapas |
 | `NSLocationAlwaysAndWhenInUseUsageDescription` | Ubicación en segundo plano | Tracking continuo para Hoppers |
-| `NSCameraUsageDescription` | "Allow HOP to access your camera" | Tomar fotos de documentos |
+| `NSCameraUsageDescription` | "Allow Drive to access your camera" | Tomar fotos de documentos |
 | `NSPhotoLibraryUsageDescription` | Acceso a galería de fotos | Seleccionar fotos existentes |
-| `NSMicrophoneUsageDescription` | "Allow HOP to access your microphone" | Funcionalidades futuras |
+| `NSMicrophoneUsageDescription` | "Allow Drive to access your microphone" | Funcionalidades futuras |
 | `UIBackgroundModes` | `fetch`, `remote-notification` | Notificaciones push y actualizaciones |
 
 ### **¿Por qué necesitamos estos permisos?**
@@ -867,8 +867,8 @@ HOP requiere los siguientes permisos del sistema operativo para funcionar correc
 ```typescript
 enum userRoles {
   USER_SUPER_ADMIN = 'USER_SUPER_ADMIN',  // Administrador
-  USER_HOPPER = 'USER_HOPPER',            // Conductor
-  USER_HOPPY = 'USER_HOPPY',              // Pasajero
+  USER_DrivePER = 'USER_DrivePER',            // Conductor
+  USER_DrivePY = 'USER_DrivePY',              // Pasajero
 }
 ```
 
