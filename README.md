@@ -1146,8 +1146,8 @@ EXPO_SENTRY_URL_PROD=""
 
 ### **Plataformas**
 
-- **iOS**: Bundle identifier: `com.novexisconsulting.hop`
-- **Android**: Package: `com.novexisconsulting.hop`
+- **iOS**: Bundle identifier: `tu-bundle`
+- **Android**: Package: `tu-bundle`
 
 ### **EAS Build**
 
